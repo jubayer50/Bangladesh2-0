@@ -5,11 +5,17 @@
   font-family: "Fira Sans", sans-serif;
 }
 
+body {
+  background-color: #f1f1f3;
+}
+
 /* common css style */
 .width {
   max-width: 1280px;
   margin: 0 auto;
 }
+
+/* main css style */
 
 #header-section .nav-container {
   display: flex;
@@ -33,4 +39,83 @@
   border-radius: 8px;
   background: #fff;
   cursor: pointer;
+}
+
+#hero-section {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+#hero-section .hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  background-color: #c6e4d6;
+  padding: 80px 100px;
+  border-radius: 24px;
+}
+
+#hero-section .hero-container .hero-content {
+  max-width: 622px;
+}
+
+#hero-section .hero-container p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #0e0e0e50;
+  margin-bottom: 16px;
+}
+
+#hero-section .hero-container h1 {
+  font-size: 56px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+
+#hero-section .hero-container .hero-btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 17px 34px;
+  border: none;
+  background: #006a50;
+  border-radius: 8px;
+}
+
+#pillar-section .pillar-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+
+#pillar-section .pillar-cards {
+  display: flex;
+  gap: 24px;
+}
+
+#pillar-section .pillar-cards .p-card {
+  padding: 24px;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid #0e0e0e15;
+}
+
+#pillar-section .p-card img {
+  max-width: 64px;
+  margin-bottom: 24px;
+}
+
+#pillar-section .p-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 12px;
+}
+
+#pillar-section .p-card p {
+  line-height: 24px;
+  color: #0e0e0e70;
 }
