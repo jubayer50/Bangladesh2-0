@@ -15,6 +15,13 @@ body {
   margin: 0 auto;
 }
 
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 26px;
+}
+
 /* main css style */
 
 #header-section .nav-container {
@@ -84,11 +91,8 @@ body {
   border-radius: 8px;
 }
 
-#pillar-section .pillar-container h2 {
-  font-size: 40px;
-  font-weight: bold;
-  color: #0e0e0e;
-  margin-bottom: 32px;
+#pillar-section {
+  margin-top: 80px;
 }
 
 #pillar-section .pillar-cards {
@@ -100,7 +104,7 @@ body {
   padding: 24px;
   border-radius: 16px;
   background: #fff;
-  border: 1px solid #0e0e0e15;
+  border: 2px solid #0e0e0e15;
 }
 
 #pillar-section .p-card img {
@@ -118,4 +122,80 @@ body {
 #pillar-section .p-card p {
   line-height: 24px;
   color: #0e0e0e70;
+}
+
+#vision-section {
+  margin-top: 80px;
+}
+
+#vision-section .vision-container > p {
+  line-height: 24px;
+  color: #0e0e0e70;
+  margin-bottom: 32px;
+}
+
+#vision-section .vision-container .vision-cards {
+  display: flex;
+  gap: 24px;
+}
+
+#vision-section .vision-container .vision-cards .digital-bg {
+  background: #5490f520;
+}
+
+#vision-section .vision-container .vision-cards .green-bg {
+  background: #c6e4d6;
+}
+
+#vision-section .vision-container .vision-cards .modern-bg {
+  background: #f7ebcf;
+}
+
+#vision-section .vision-container .v-card {
+  max-width: 411px;
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#vision-section .vision-container .v-card img {
+  max-width: 64px;
+  margin-bottom: 24px;
+}
+
+#vision-section .vision-container .v-card > h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #0e0e0e80;
+}
+
+#vision-section .vision-container .v-card > p {
+  line-height: 24px;
+  color: #0e0e0e70;
+  margin-bottom: 24px;
+}
+
+#vision-section .vision-container .v-card > button {
+  width: 122px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+#vision-section .vision-container .v-card .digital-btn {
+  background: #5490f5;
+}
+
+#vision-section .vision-container .v-card .green-btn {
+  background: #09a15c;
+}
+
+#vision-section .vision-container .v-card .modern-btn {
+  background: #ffc239;
 }
