@@ -235,9 +235,10 @@ body {
   margin-top: 80px;
 }
 
-.opinion-table {
+#opinion-section .opinion-table {
   background: #fff;
   padding: 32px;
+  border-radius: 16px;
 }
 
 #opinion-section .opinion-container table {
@@ -279,4 +280,68 @@ body {
   padding: 14px;
   border: 1px solid #0e0e0e;
   border-radius: 4px;
+}
+
+#recent-section {
+  margin-top: 80px;
+}
+
+#recent-section .recent-container > p {
+  line-height: 24px;
+  color: #0e0e0e70;
+  margin-bottom: 32px;
+}
+
+#recent-section .recent-boxs {
+}
+
+#recent-section .recent-boxs .r-box {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  background: #fff;
+  padding: 48px;
+  border-radius: 24px;
+  margin-bottom: 24px;
+}
+
+#recent-section .recent-boxs .r-box img {
+  border-radius: 24px;
+}
+
+#recent-section .recent-boxs .revers {
+  flex-direction: row-reverse;
+}
+
+#recent-section .recent-boxs > h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0e0e0e80;
+  margin-bottom: 12px;
+}
+
+#recent-section .recent-boxs .r-content > img {
+  max-width: 134px;
+  margin-bottom: 12px;
+}
+
+#recent-section .recent-boxs .r-content .date-time {
+  margin-bottom: 12px;
+}
+
+#recent-section .recent-boxs .r-content p {
+  line-height: 24px;
+  color: #0e0e0e70;
+}
+
+#recent-section .recent-boxs .r-content button {
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 13px 26px;
+  border: none;
+  border-radius: 8px;
+  background: #006a50;
+  cursor: pointer;
 }
