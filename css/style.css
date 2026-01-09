@@ -199,3 +199,84 @@ body {
 #vision-section .vision-container .v-card .modern-btn {
   background: #ffc239;
 }
+
+#vision-section .quation {
+  margin-top: 32px;
+  background: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 24px 25px;
+  /* background-size: ; */
+  padding: 48px 24px;
+  border: 2px solid #0e0e0e15;
+  border-radius: 16px;
+}
+
+#vision-section .quation > p {
+  line-height: 24px;
+  color: #0e0e0e80;
+}
+
+#vision-section .quation div {
+  margin-top: 12px;
+}
+
+#vision-section .quation div h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0e0e0e80;
+  margin-bottom: 5px;
+}
+
+#vision-section .quation div p {
+  color: #0e0e0e60;
+}
+
+#opinion-section {
+  margin-top: 80px;
+}
+
+.opinion-table {
+  background: #fff;
+  padding: 32px;
+}
+
+#opinion-section .opinion-container table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 16px;
+}
+
+#opinion-section .opinion-container table th {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  padding: 24px;
+  background: #c6e4d6;
+  border: 1px;
+  border-top: 2px solid #0e0e0e15;
+}
+
+#opinion-section .opinion-container table th:first-child {
+  border-left: 2px solid #0e0e0e15;
+}
+
+#opinion-section .opinion-container table th:last-child {
+  border-right: 2px solid #0e0e0e15;
+}
+
+#opinion-section .opinion-container table td {
+  color: #0e0e0e;
+  font-weight: 600;
+  padding: 24px;
+  border: 2px solid #0e0e0e15;
+}
+
+#opinion-section .opinion-container table td select {
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  background: #09a15c15;
+  padding: 14px;
+  border: 1px solid #0e0e0e;
+  border-radius: 4px;
+}
