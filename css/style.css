@@ -345,3 +345,63 @@ body {
   background: #006a50;
   cursor: pointer;
 }
+
+#donate-section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#donate-section .donate-container > P {
+  line-height: 24px;
+  color: #0e0e0e70;
+  max-width: 1100px;
+  margin: 0 auto 32px;
+}
+
+#donate-section .donate-container .donate-blocks {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+#donate-section .donate-container .donate-blocks .d-block {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+
+#donate-section .donate-container .donate-blocks .t-200 {
+  background: #c6e4d6;
+}
+
+#donate-section .donate-container .donate-blocks .d-block h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e80;
+}
+
+#donate-section .donate-container .other-donate {
+  max-width: 1032px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 0;
+  text-align: center;
+  color: #0e0e0e50;
+}
+
+#donate-section .donate-container .donate-btn {
+  text-align: center;
+}
+
+#donate-section .donate-container .donate-btn button {
+  margin-top: 49px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #006a50;
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
